@@ -55,6 +55,16 @@ void display() {
 	cout << endl;
 }
 
+int main() {
+
+	input(); //Memanggil procedur input()
+	bubbleSortArray(); //Mengurutkan data dengan algoritma bubble sort
+	display(); //Memanggil procedur display()
+	system("pause");
+
+	return 0;
+}
+
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
