@@ -41,9 +41,18 @@ void bubbleSortArray() { //procedur untuk mengurutkan array dengan metode bubble
 		}
 		pass = pass + 1; //step 4
 	} while (pass <= n - 1); //step 5
-	{
+}
 
+void display() {
+	cout << endl;
+	cout << "=============" << endl;
+	cout << "Element Array yang telah tersusun" << endl;
+	cout << "=============" << endl;
+	for (int j = 0; j < n; j++) {
+		cout << a[j] << endl; //Output each array element on a new line
 	}
+	cout << "Jumlah Pass = " << n - 1 << endl; //Correctly shows the total number of elements
+	cout << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
